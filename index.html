@@ -9,8 +9,42 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <title>Whitspace Landing Page</title>
   </head>
-  <body></body>
+  <body>
+    <header class="site-header">
+      <div class="header-container">
+        <a href="#" class="logo">
+          <img src="assets/logo/Logo.png" alt="whitespace logo" />
+        </a>
+
+        <!-- mobile menu toggle -->
+        <input type="checkbox" id="toggle" class="menu-toggle" />
+
+        <!-- hamburger menu -->
+        <label for="toggle" class="hamburger-menu">
+          <img src="assets/icons/hamburger.png" alt="hamburger-menu" />
+        </label>
+
+        <!-- navigation links -->
+        <nav class="navigation">
+          <ul class="nav-links">
+            <li><a href="#Products">Products</a></li>
+            <li><a href="#Solutions">Solutions</a></li>
+            <li><a href="#Resources">Resources</a></li>
+            <li><a href="#Pricing">Pricing</a></li>
+          </ul>
+
+          <div class="nav-buttons">
+            <a href="#" class="login-btn">Login</a>
+            <a href="#" class="free-btn"
+              >Try whitespace Free
+              <img src="assets/icons/Right arrow Icon.png" alt="" />
+            </a>
+          </div>
+        </nav>
+      </div>
+    </header>
+  </body>
 </html>
