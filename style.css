@@ -1,0 +1,20 @@
+:root {
+  /* Primary colors */
+  --navy-blue: #043873;
+  --sky-blue: #4f9cf9;
+
+  /* Secondary colors */
+  --cream-yellow: #ffe492;
+  --light-cyan-blue: #a7cefc;
+  --white: #ffffff;
+  --dark-charcoal: #212529;
+
+  /* Font Families */
+  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+
+  /* font weights */
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+}
