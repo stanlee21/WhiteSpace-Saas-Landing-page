@@ -6,11 +6,11 @@
   /* Secondary colors */
   --cream-yellow: #ffe492;
   --light-cyan-blue: #a7cefc;
-  --white: #ffffff;
+  --white: #fff;
   --dark-charcoal: #212529;
 
   /* Font Families */
-  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-sans: "Inter", -apple-system, "blinkmacsystemfont", sans-serif;
 
   /* font weights */
   --fw-regular: 400;
