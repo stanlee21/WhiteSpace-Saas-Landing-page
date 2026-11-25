@@ -321,3 +321,43 @@ body {
   line-height: 1.5;
   margin-bottom: 40px;
 }
+
+/* CUSTOMIZE SECTION */
+.customize {
+  width: 100%;
+  padding: 80px 16px;
+  background-color: var(--white);
+}
+
+.customize-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.customize-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.customize-content h2 {
+  color: var(--dark-charcoal);
+  font-size: 38px;
+  line-height: 1.2;
+  margin-bottom: 24px;
+  margin-top: 24px;
+  position: relative;
+  z-index: 1;
+}
+
+.customize-content p {
+  color: var(--dark-charcoal);
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
