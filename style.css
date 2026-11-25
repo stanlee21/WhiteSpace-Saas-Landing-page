@@ -206,6 +206,10 @@ body {
   background-color: var(--white);
 }
 
+.project-container:nth-child(2) {
+  margin-top: 80px;
+}
+
 .project-container {
   display: flex;
   flex-direction: column;
