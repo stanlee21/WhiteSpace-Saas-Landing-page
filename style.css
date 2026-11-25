@@ -780,3 +780,85 @@ body {
   height: auto;
   object-fit: contain;
 }
+
+/* WORK WITH YOUR FAVORITE APPS SECTION */
+
+.apps-section {
+  width: 100%;
+  padding: 80px 16px;
+  background-color: #043873;
+  overflow: hidden;
+}
+
+.apps-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+/* Apps illustration */
+
+.apps-image {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.apps-image img {
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  object-fit: contain;
+}
+
+.apps-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.apps-content h2 {
+  color: var(--white);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 24px;
+}
+
+.apps-content p {
+  color: var(--white);
+  font-size: 18px;
+  line-height: 1.67;
+  margin-bottom: 60px;
+}
+
+.apps-button {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.apps-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 20px 40px;
+  background-color: #4f9cf9;
+  color: var(--white);
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 18px;
+}
+
+.apps-link img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  filter: brightness(0) invert(1);
+}
