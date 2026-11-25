@@ -362,7 +362,6 @@ body {
   margin-bottom: 40px;
 }
 
-
 /* PRICING SECTION */
 
 .pricing-section {
@@ -498,7 +497,6 @@ body {
   background-color: #4f9cf9;
 }
 
-
 /* YOUR WORK, EVERYWHERE YOU ARE SECTION */
 
 .work-everywhere-section {
@@ -567,7 +565,6 @@ body {
   object-fit: contain;
   filter: brightness(0) invert(1);
 }
-
 
 /* 100% YOUR DATA SECTION */
 
@@ -673,4 +670,113 @@ body {
   height: 20px;
   object-fit: contain;
   filter: brightness(0) invert(1);
+}
+
+/* OUR SPONSORS SECTION */
+
+.sponsors-section {
+  width: 100%;
+  padding: 80px 16px;
+  background-color: var(--white);
+}
+
+.sponsors-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+}
+
+/* Heading */
+
+.sponsors-heading {
+  width: 100%;
+  text-align: center;
+}
+
+.sponsors-heading h2 {
+  position: relative;
+  isolation: isolate;
+  display: inline-block;
+  color: var(--dark-charcoal);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.sponsors-decoration {
+  position: absolute;
+  width: 110%;
+  left: 50%;
+  bottom: -10px;
+  transform: translateX(-50%);
+  z-index: -1;
+}
+
+.sponsors-decoration img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* Sponsor logos */
+
+.sponsors-logos {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+}
+
+.sponsor-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Microsoft */
+
+.microsoft-logo {
+  gap: 10px;
+}
+
+.microsoft-logo img {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+}
+
+.microsoft-logo span {
+  color: #737373;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+/* Slack */
+
+.sponsor-logo:nth-child(2) {
+  gap: 8px;
+}
+
+.sponsor-logo:nth-child(2) img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+
+.sponsor-logo:nth-child(2) span {
+  color: var(--dark-charcoal);
+  font-size: 50px;
+  font-weight: 600;
+}
+
+/* Google */
+
+.google-logo img {
+  display: block;
+  width: 145px;
+  height: auto;
+  object-fit: contain;
 }
