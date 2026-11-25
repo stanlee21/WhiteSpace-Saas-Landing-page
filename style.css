@@ -198,3 +198,83 @@ body {
   width: 100%;
   height: auto;
 }
+
+/* PROJECT MANAGEMENT MOBILE SECTION */
+.project-section {
+  width: 100%;
+  padding: 80px 16px;
+  background-color: var(--white);
+}
+
+.project-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.project-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.project-content h2 {
+  color: var(--dark-charcoal);
+  font-size: 38px;
+  line-height: 1.2;
+  margin-bottom: 24px;
+  position: relative;
+  z-index: 1;
+}
+
+.bg-position {
+  position: absolute;
+  top: 100;
+  left: 20;
+  z-index: 0;
+}
+
+.bg-position img {
+  width: 100%;
+  height: auto;
+}
+
+.project-content p {
+  color: var(--dark-charcoal);
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+
+.project-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  padding: 12px 24px;
+  background-color: var(--sky-blue);
+  color: var(--white);
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.project-link img {
+  width: 40px;
+  object-fit: contain;
+  filter: brightness(0) invert(1);
+}
+
+.project-image {
+  width: 100%;
+}
+
+.project-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
