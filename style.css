@@ -131,7 +131,7 @@ body {
 /* HERO SECTION STARTS HERE */
 .hero-section {
   width: 100%;
-  background-color: var(--navy-blue);
+  background: var(--navy-blue) url(assets/img/hero-element.png) no-repeat;
   padding: 80px 16px;
   display: flex;
   flex-direction: column;
