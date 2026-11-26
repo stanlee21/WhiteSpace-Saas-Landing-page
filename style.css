@@ -1823,7 +1823,7 @@ body {
     padding: 60px 24px;
   }
 
-    .pricing-card h3 {
+  .pricing-card h3 {
     font-size: 24px;
   }
 
@@ -1850,5 +1850,49 @@ body {
 
   .pricing-pagination {
     display: none;
+  }
+
+  /* DESKTOP WORK EVERYWHERE SECTION */
+  .work-everywhere-section {
+    padding: 140px 32px;
+  }
+
+  .work-everywhere-container {
+    max-width: 1376px;
+    margin: 0 auto;
+  }
+
+  .work-everywhere-content {
+    max-width: 850px;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+  }
+
+  .work-everywhere-content h2 {
+    font-size: 64px;
+    margin-bottom: 32px;
+    white-space: nowrap;
+  }
+
+  .work-everywhere-content h2 br {
+    display: none;
+  }
+
+  .work-everywhere-content p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+  }
+
+  .work-everywhere-button {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .work-everywhere-link {
+    width: fit-content;
+    padding: 20px 40px;
   }
 }
