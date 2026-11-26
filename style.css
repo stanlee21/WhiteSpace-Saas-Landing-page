@@ -1719,7 +1719,7 @@ body {
 
   /* DESKTOP CUSTOMIZE SECTION */
   .customize {
-    padding: 140px 32px;
+    padding: 80px 32px;
   }
 
   .customize-container {
@@ -1774,7 +1774,7 @@ body {
 
   /* DESKTOP PRICING SECTION */
   .pricing-section {
-    padding: 140px 32px;
+    padding: 100px 32px;
     overflow: visible;
   }
 
@@ -1821,5 +1821,34 @@ body {
     color: var(--white);
     border: none;
     padding: 60px 24px;
+  }
+
+    .pricing-card h3 {
+    font-size: 24px;
+  }
+
+  .pricing-card h4 {
+    font-size: 36px;
+  }
+
+  .pricing-card > p {
+    font-size: 16px;
+  }
+
+  .pricing-features {
+    gap: 24px;
+  }
+
+  .pricing-features li {
+    font-size: 16px;
+  }
+
+  .pricing-button {
+    display: inline-flex;
+    flex-direction: row;
+  }
+
+  .pricing-pagination {
+    display: none;
   }
 }
