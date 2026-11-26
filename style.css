@@ -1287,21 +1287,56 @@ body {
 /* TABLET RESPONSIVE DESIGN */
 @media screen and (min-width: 768px) {
   /* TABLET HEADER */
-.site-header {
-  height: 64px;
-}
+  .site-header {
+    height: 64px;
+  }
 
-.header-container {
-  padding: 16px 32px;
-}
+  .header-container {
+    padding: 16px 32px;
+  }
 
-.hamburger-menu img {
-  width: 28px;
-  height: 28px;
-}
+  .hamburger-menu img {
+    width: 28px;
+    height: 28px;
+  }
 
-.navigation {
-  top: 64px;
-  padding: 24px 32px;
-}
+  .navigation {
+    top: 64px;
+    padding: 24px 32px;
+  }
+
+  /* TABLET HERO SECTION */
+  .hero-section {
+    padding: 100px 32px;
+    gap: 60px;
+  }
+
+  .hero-container {
+    width: 100%;
+    max-width: 700px;
+    text-align: center;
+  }
+
+  .hero-container h1 {
+    font-size: 60px;
+  }
+
+  .hero-container p {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+
+  .hero-button {
+    justify-content: center;
+  }
+
+  .hero-image {
+    width: 100%;
+    max-width: 600px;
+  }
+
+  .hero-image img {
+    width: 100%;
+    height: auto;
+  }
 }
