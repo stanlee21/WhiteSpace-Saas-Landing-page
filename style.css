@@ -1933,12 +1933,12 @@ body {
     line-height: 1.5;
   }
 
-    .data-button {
+  .data-button {
     justify-content: flex-start;
     width: auto;
   }
 
-    /* DESKTOP SPONSORS SECTION */
+  /* DESKTOP SPONSORS SECTION */
   .sponsors-section {
     padding: 140px 32px;
   }
@@ -1958,5 +1958,131 @@ body {
     justify-content: space-between;
     align-items: center;
     gap: 40px;
+  }
+
+  /* DESKTOP APPS SECTION */
+  .apps-section {
+    padding: 140px 32px;
+  }
+
+  .apps-container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1376px;
+    margin: 0 auto;
+    gap: 60px;
+  }
+
+  .apps-image {
+    width: 50%;
+  }
+
+  .apps-image img {
+    max-width: 600px;
+  }
+
+  .apps-content {
+    width: 50%;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .apps-button {
+    justify-content: flex-start;
+    width: auto;
+  }
+
+  .apps-content h2 {
+    font-size: 64px;
+  }
+
+  .apps-content p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+  }
+
+  /* DESKTOP TESTIMONIALS SECTION */
+  .testimonials-section {
+    padding: 140px 32px;
+    overflow: visible;
+  }
+
+  .testimonials-container {
+    max-width: 1376px;
+    margin: 0 auto;
+    gap: 60px;
+  }
+
+  .testimonials-heading h2 {
+    font-size: 64px;
+  }
+
+  .testimonials-cards {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    gap: 32px;
+    width: 100%;
+    transform: none;
+  }
+
+  .testimonial-card {
+    flex: 1;
+    width: auto;
+    min-height: 430px;
+    padding: 32px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #4f9cf9;
+    color: var(--white);
+    border-radius: 10px;
+  }
+
+  .testimonial-card:nth-child(2) {
+    background-color: var(--white);
+    color: var(--dark-charcoal);
+  }
+
+  .testimonial-text {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 24px 0;
+    color: inherit;
+  }
+
+  .client-info {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+
+  .client-details h3,
+  .client-details p {
+    color: inherit;
+  }
+
+  .client-details h3 {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+
+  .client-details p {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+
+  .testimonial-rating {
+    color: #ffe492;
+    font-size: 18px;
+    white-space: nowrap;
+    letter-spacing: 2px;
+  }
+
+  .testimonials-pagination {
+    display: none;
   }
 }
