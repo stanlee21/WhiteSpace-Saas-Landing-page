@@ -1937,4 +1937,26 @@ body {
     justify-content: flex-start;
     width: auto;
   }
+
+    /* DESKTOP SPONSORS SECTION */
+  .sponsors-section {
+    padding: 140px 32px;
+  }
+
+  .sponsors-container {
+    max-width: 1376px;
+    margin: 0 auto;
+    gap: 80px;
+  }
+
+  .sponsors-heading h2 {
+    font-size: 64px;
+  }
+
+  .sponsors-logos {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+  }
 }
