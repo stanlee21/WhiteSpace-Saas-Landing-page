@@ -1456,7 +1456,6 @@ body {
     margin-top: -20px;
   }
 
-
   /* TABLET TESTIMONIALS SECTION */
   .testimonials-section {
     padding: 100px 0;
@@ -1541,5 +1540,100 @@ body {
 
   .testimonials-pagination {
     margin-top: -35px;
+  }
+}
+
+/* DESKTOP RESPONSIVE DESIGN */
+
+@media screen and (min-width: 1024px) {
+  /* DESKTOP HEADER */
+  .site-header {
+    height: 92px;
+  }
+
+  .header-container {
+    padding: 16px 32px;
+  }
+
+  .logo img {
+    width: 180px;
+  }
+
+  .menu-toggle,
+  .hamburger-menu {
+    display: none;
+  }
+
+  .navigation {
+    position: static;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 40px;
+    width: auto;
+    padding: 0;
+    background-color: transparent;
+  }
+
+  .nav-links {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+  }
+
+  .navigation li {
+    font-size: 18px;
+  }
+
+  .nav-buttons {
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+    margin-top: 0;
+  }
+
+  .nav-buttons a {
+    white-space: nowrap;
+  }
+
+  /* DESKTOP HERO SECTION */
+  .hero-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 32px;
+    gap: 40px;
+  }
+
+  .hero-container {
+    width: 50%;
+    max-width: 600px;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .hero-container h1 {
+    font-size: 64px;
+  }
+
+  .hero-container p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
+  .hero-button {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .hero-image {
+    width: 50%;
+    max-width: 600px;
+  }
+
+  .hero-image img {
+    width: 100%;
+    height: auto;
   }
 }
