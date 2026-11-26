@@ -1379,4 +1379,80 @@ body {
     width: 100%;
     height: auto;
   }
+
+  /* TABLET PRICING SECTION */
+  .pricing-section {
+    padding: 100px 32px;
+    overflow: hidden;
+  }
+
+  .pricing-container {
+    gap: 60px;
+  }
+
+  .pricing-heading {
+    max-width: 700px;
+  }
+
+  .pricing-heading h2 {
+    font-size: 48px;
+  }
+
+  .pricing-heading p {
+    font-size: 18px;
+  }
+
+  .pricing-cards {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    width: 100%;
+    transform: translateX(calc(-67% - 24px));
+  }
+
+  .pricing-card {
+    flex: 0 0 78%;
+    width: 78%;
+    padding: 40px 32px;
+    background-color: var(--white);
+    color: var(--dark-charcoal);
+    border: 1px solid #ffe492;
+    border-radius: 10px;
+  }
+
+  /* Highlight the Personal plan */
+  .pricing-card:nth-child(2) {
+    background-color: #043873;
+    color: var(--white);
+    border: none;
+    padding: 60px 32px;
+  }
+
+  .pricing-card h3 {
+    font-size: 24px;
+  }
+
+  .pricing-card h4 {
+    font-size: 36px;
+  }
+
+  .pricing-card > p {
+    font-size: 16px;
+  }
+
+  .pricing-features {
+    gap: 24px;
+  }
+
+  .pricing-features li {
+    font-size: 16px;
+  }
+
+  .pricing-button {
+    display: inline-flex;
+  }
+
+  .pricing-pagination {
+    margin-top: -20px;
+  }
 }
