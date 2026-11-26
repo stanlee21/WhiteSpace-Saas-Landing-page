@@ -1690,4 +1690,136 @@ body {
     margin: 0 auto;
     gap: 60px;
   }
+
+  .extension-content {
+    width: 50%;
+    max-width: 600px;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .extension-content h2 {
+    font-size: 64px;
+  }
+
+  .extension-content p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
+  .extension-container .project-image {
+    width: 50%;
+    max-width: 600px;
+  }
+
+  .extension-container .project-image img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* DESKTOP CUSTOMIZE SECTION */
+  .customize {
+    padding: 140px 32px;
+  }
+
+  .customize-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 60px;
+    max-width: 1376px;
+    margin: 0 auto;
+  }
+
+  .customize-content {
+    display: contents;
+  }
+
+  .customize-content .project-image {
+    grid-column: 1;
+    grid-row: 1;
+    width: 100%;
+    max-width: 600px;
+  }
+
+  .customize-content h2,
+  .customize-content p,
+  .customize-content .project-button {
+    grid-column: 2;
+  }
+  .customize-content h2 {
+    font-size: 64px;
+    text-align: left;
+    margin-top: 0;
+  }
+
+  .customize-content p {
+    font-size: 18px;
+    text-align: left;
+    line-height: 1.5;
+  }
+
+  .customize-content .project-button {
+    justify-self: start;
+  }
+
+  .customize-content .project-link {
+    width: fit-content;
+  }
+
+  .customize-content .project-image img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* DESKTOP PRICING SECTION */
+  .pricing-section {
+    padding: 140px 32px;
+    overflow: visible;
+  }
+
+  .pricing-container {
+    max-width: 1376px;
+    margin: 0 auto;
+    gap: 60px;
+  }
+
+  .pricing-heading {
+    max-width: 900px;
+  }
+
+  .pricing-heading h2 {
+    font-size: 64px;
+  }
+
+  .pricing-heading p {
+    font-size: 18px;
+  }
+
+  .pricing-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    width: 100%;
+    transform: none;
+  }
+
+  .pricing-card {
+    flex: 1;
+    width: auto;
+    padding: 40px 24px;
+    background-color: var(--white);
+    color: var(--dark-charcoal);
+    border: 1px solid #ffe492;
+    border-radius: 10px;
+  }
+
+  /* Highlight the Personal plan */
+  .pricing-card:nth-child(2) {
+    background-color: #043873;
+    color: var(--white);
+    border: none;
+    padding: 60px 24px;
+  }
 }
