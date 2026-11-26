@@ -1923,4 +1923,18 @@ body {
     align-items: flex-start;
     text-align: left;
   }
+
+  .data-content h2 {
+    font-size: 64px;
+  }
+
+  .data-content p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
+    .data-button {
+    justify-content: flex-start;
+    width: auto;
+  }
 }
