@@ -1895,4 +1895,32 @@ body {
     width: fit-content;
     padding: 20px 40px;
   }
+
+  /* DESKTOP DATA SECTION */
+  .data-section {
+    padding: 140px 32px;
+  }
+
+  .data-container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1376px;
+    margin: 0 auto;
+    gap: 60px;
+  }
+
+  .data-image {
+    width: 50%;
+  }
+
+  .data-image img {
+    max-width: 600px;
+  }
+
+  .data-content {
+    width: 50%;
+    align-items: flex-start;
+    text-align: left;
+  }
 }
