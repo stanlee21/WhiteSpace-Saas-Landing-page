@@ -1636,4 +1636,23 @@ body {
     width: 100%;
     height: auto;
   }
+
+  /* DESKTOP PROJECT MANAGEMENT SECTION */
+  .project-section {
+    padding: 140px 32px;
+  }
+
+  .project-container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1376px;
+    margin: 0 auto;
+    gap: 60px;
+  }
+
+  .project-container:nth-child(2) {
+    flex-direction: row-reverse;
+    margin-top: 140px;
+  }
 }
