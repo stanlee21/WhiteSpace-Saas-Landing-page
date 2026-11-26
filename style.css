@@ -2085,4 +2085,68 @@ body {
   .testimonials-pagination {
     display: none;
   }
+
+    /* DESKTOP FREE TRIAL SECTION */
+  .free-trial-section {
+    padding: 140px 32px;
+  }
+
+  .free-trial-container {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .free-trial-content {
+    align-items: center;
+    text-align: center;
+  }
+
+    .free-trial-content h2 {
+    font-size: 64px;
+  }
+
+  .free-trial-description {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
+  .free-trial-button {
+    width: auto;
+  }
+
+  .free-trial-link {
+    width: fit-content;
+    padding: 20px 40px;
+  }
+
+    /* DESKTOP FOOTER SECTION */
+  .site-footer {
+    padding: 100px 32px 24px;
+  }
+
+  .footer-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1.5fr;
+    align-items: start;
+    gap: 32px;
+    max-width: 1376px;
+    margin: 0 auto;
+    text-align: left;
+  }
+
+  .footer-about,
+  .footer-links,
+  .footer-cta {
+    width: 100%;
+    align-items: flex-start;
+  }
+
+  .footer-about p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  .footer-links ul {
+    align-items: flex-start;
+  }
 }
