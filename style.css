@@ -1602,7 +1602,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 80px 32px;
+    padding: 40px 32px;
     gap: 40px;
   }
 
@@ -1639,7 +1639,7 @@ body {
 
   /* DESKTOP PROJECT MANAGEMENT SECTION */
   .project-section {
-    padding: 140px 32px;
+    padding: 100px 32px;
   }
 
   .project-container {
@@ -1654,5 +1654,40 @@ body {
   .project-container:nth-child(2) {
     flex-direction: row-reverse;
     margin-top: 140px;
+  }
+
+  .project-content {
+    width: 50%;
+    max-width: 600px;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .project-content h2 {
+    font-size: 64px;
+  }
+
+  .project-image {
+    width: 50%;
+    max-width: 600px;
+  }
+
+  .project-image img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* DESKTOP EXTENSION SECTION */
+  .extension {
+    padding: 140px 32px;
+  }
+
+  .extension-container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1376px;
+    margin: 0 auto;
+    gap: 60px;
   }
 }
