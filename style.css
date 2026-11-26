@@ -2149,4 +2149,25 @@ body {
   .footer-links ul {
     align-items: flex-start;
   }
+
+    .footer-bottom {
+    grid-column: 1 / -1;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    margin-top: 40px;
+  }
+
+  .footer-legal {
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .footer-socials {
+    width: auto;
+    justify-content: flex-end;
+    gap: 24px;
+  }
 }
