@@ -509,8 +509,6 @@ body {
   align-items: flex-start;
 }
 
-/* Heading */
-
 .work-everywhere-content h2 {
   position: relative;
   color: var(--white);
@@ -520,13 +518,13 @@ body {
   margin-bottom: 28px;
 }
 
-.work-everywhere-content h2 img {
+.work-everywhere-decoration {
   position: absolute;
   width: 100%;
   height: auto;
   left: 0;
   bottom: -12px;
-  z-index: 0;
+  z-index: -1;
 }
 
 /* Paragraph */
@@ -681,8 +679,6 @@ body {
   gap: 80px;
 }
 
-/* Heading */
-
 .sponsors-heading {
   width: 100%;
   text-align: center;
@@ -749,17 +745,17 @@ body {
 
 /* Slack */
 
-.sponsor-logo:nth-child(2) {
+.slack-logo {
   gap: 8px;
 }
 
-.sponsor-logo:nth-child(2) img {
+.slack-logo img {
   width: 50px;
   height: 50px;
   object-fit: contain;
 }
 
-.sponsor-logo:nth-child(2) span {
+.slack-logo span {
   color: var(--dark-charcoal);
   font-size: 50px;
   font-weight: 600;
@@ -1092,21 +1088,10 @@ body {
   object-fit: contain;
 }
 
-/* Make the Apple icon white */
-
-.platform-icons img:first-child {
-  filter: brightness(0) invert(1);
-}
-
-/* Make the Windows icon white */
-
-.platform-icons img:nth-child(2) {
-  filter: brightness(0) invert(1);
-}
-
-/* Make the Android icon white */
-
-.platform-icons img:nth-child(3) {
+/* Make the platform icons white */
+.apple-icon,
+.windows-icon,
+.android-icon {
   filter: brightness(0) invert(1);
 }
 
