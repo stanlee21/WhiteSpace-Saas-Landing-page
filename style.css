@@ -2059,6 +2059,20 @@ body {
     color: var(--dark-charcoal);
   }
 
+  .testimonial-card:nth-child(2) .quote-icon img,
+  .testimonial-card:nth-child(3) .quote-icon img {
+    filter: brightness(0) invert(1);
+  }
+
+  .testimonial-divider {
+    height: 1px;
+    background-color: rgb(255 255 255 / 50%);
+  }
+
+  .testimonial-card:nth-child(1) .testimonial-divider {
+    background-color: #999;
+  }
+
   .testimonial-text {
     font-size: 16px;
     line-height: 1.5;
